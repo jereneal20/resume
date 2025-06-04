@@ -5,6 +5,15 @@
   <title>Taejin Kim</title>
 </head>
   <body style="width:100%; height:100%; margin:0;">
-    <iframe src="https://docs.google.com/gview?url=https://github.com/jereneal20/resume/raw/main/Taejin%20Kim%20Resume.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
+    <script>
+  window.addEventListener('load', () => {
+    const iframe = document.createElement('iframe');
+    iframe.src = 'https://docs.google.com/gview?url=https://github.com/jereneal20/resume/raw/main/Taejin%20Kim%20Resume.pdf&embedded=true';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.frameBorder = '0';
+    document.body.appendChild(iframe);
+  });
+     </script>
   </body>
 </html>
